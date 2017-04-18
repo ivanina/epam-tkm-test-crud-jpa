@@ -5,8 +5,8 @@ import lombok.NonNull;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
-@Table(name = "facebook_user")
+//@Entity
+//@Table(name = "facebook_user")
 public class FbUser {
     @Id
     @Column(name = "id")
